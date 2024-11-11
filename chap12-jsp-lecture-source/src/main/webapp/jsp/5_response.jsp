@@ -19,7 +19,6 @@
 
 //      String menuName = (String) request.getAttribute("menuName");
 //      int amount = (int) request.getAttribute("amount");
-
         String menuName = request.getParameter("menuName");
         int amount = Integer.parseInt(request.getParameter("amount"));
       int totalPrice = (int) request.getAttribute("totalPrice");

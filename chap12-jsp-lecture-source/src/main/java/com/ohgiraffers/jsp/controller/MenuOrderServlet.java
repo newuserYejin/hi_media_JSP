@@ -24,9 +24,9 @@ public class MenuOrderServlet extends HttpServlet {
         int totalPrice = new MenuPriceCalculator().calcTotalPrice(menuName, amount);
 
 
-        // 다른 서블릿으로 넘어갈 값 설정
-//        req.setAttribute("menuName",menuName);
-//        req.setAttribute("amount",amount);
+//         다른 서블릿으로 넘어갈 값 설정
+        req.setAttribute("menuName",menuName);
+        req.setAttribute("amount",amount);
         req.setAttribute("totalPrice",totalPrice);
 
         // 앞에 / 가 붙으면 절대경로

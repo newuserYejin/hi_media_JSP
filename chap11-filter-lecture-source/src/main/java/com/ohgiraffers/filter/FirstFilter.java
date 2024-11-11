@@ -38,5 +38,4 @@ public class FirstFilter implements Filter {
         System.out.println("destroy filter 인스턴스 호출");
     }
 
-
 }

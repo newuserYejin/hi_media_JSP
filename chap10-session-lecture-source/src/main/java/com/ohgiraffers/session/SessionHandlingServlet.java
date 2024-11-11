@@ -36,6 +36,5 @@ public class SessionHandlingServlet extends HttpServlet {
 
         session.setAttribute("id", id);
         session.setAttribute("pwd", pw);
-
     }
 }

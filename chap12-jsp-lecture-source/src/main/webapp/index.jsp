@@ -11,6 +11,7 @@
         <li><a href="jsp/2_pageDirective.jsp">Page 지시자 태그</a></li>
         <li><a href="jsp/3_includeDirective.jsp">Include 태그</a></li>
         <li><a href="jsp/4_request.jsp">jsp를 이용한 요청 처리</a></li>
+        <li><a href="jsp/6_lotto.jsp">로또번호 생성</a></li>
     </ul>
 </body>
 </html>
